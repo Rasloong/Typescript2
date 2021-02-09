@@ -1,3 +1,9 @@
+
+function imprimirconsola(ctorclass:Function){
+    console.log(ctorclass);
+}
+
+@imprimirconsola
 export class Xmen{
     constructor(
         public nombre:string,
